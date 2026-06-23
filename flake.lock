@@ -1,0 +1,573 @@
+{
+  "nodes": {
+    "android-device-samsung-crownlte": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1781192225,
+        "narHash": "sha256-Zm6tMOj0sMPNp/pa1invmSKW3g8XWap4yX1FXChb5ro=",
+        "owner": "ExyHyperBrick",
+        "repo": "android_device_samsung_crownlte",
+        "rev": "98805be0f3dac143536cd3abf738b3f0a15173b6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ExyHyperBrick",
+        "ref": "lineage-23.2",
+        "repo": "android_device_samsung_crownlte",
+        "type": "github"
+      }
+    },
+    "android-device-samsung-exynos9810-common": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1781447112,
+        "narHash": "sha256-7VU4Oh4agCPynlkWvsqKfPBDlwIfmIovbtYEBpd6luo=",
+        "owner": "ExyHyperBrick",
+        "repo": "android_device_samsung_exynos9810-common",
+        "rev": "a542ee00124acec8db08a9694cfe9e683904a984",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ExyHyperBrick",
+        "ref": "lineage-23.2",
+        "repo": "android_device_samsung_exynos9810-common",
+        "type": "github"
+      }
+    },
+    "android-device-samsung-slsi-sepolicy": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1779125932,
+        "narHash": "sha256-XOrQad3j1fx+ORsjMcmc3/PsTVYkH3ItDJDjTVqTPaU=",
+        "owner": "LineageOS",
+        "repo": "android_device_samsung_slsi_sepolicy",
+        "rev": "a019add3e5fc1e013238cfed1af6c6b3baef9f7e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "LineageOS",
+        "ref": "lineage-23.2",
+        "repo": "android_device_samsung_slsi_sepolicy",
+        "type": "github"
+      }
+    },
+    "android-device-samsung-star2lte": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1781192198,
+        "narHash": "sha256-GSmwCwe46mKMuDRJze6uzajqq72XNPcarK+NqLKIMXU=",
+        "owner": "ExyHyperBrick",
+        "repo": "android_device_samsung_star2lte",
+        "rev": "e4e67cf8263a8d99ad7552a62a93ce720e4ff1a6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ExyHyperBrick",
+        "ref": "lineage-23.2",
+        "repo": "android_device_samsung_star2lte",
+        "type": "github"
+      }
+    },
+    "android-device-samsung-starlte": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1781192157,
+        "narHash": "sha256-UFxb6nBtmxp1nbph3mLJg1TAyBiNk9GfO97m0HQj/aE=",
+        "owner": "ExyHyperBrick",
+        "repo": "android_device_samsung_starlte",
+        "rev": "ee45db3d194b5ee60f41963badaf224f1d748182",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ExyHyperBrick",
+        "ref": "lineage-23.2",
+        "repo": "android_device_samsung_starlte",
+        "type": "github"
+      }
+    },
+    "android-hardware-samsung": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1781546086,
+        "narHash": "sha256-iYjUnDYERtg5U0s69JD/aoBxtOHDvXKGJrRWHbL1/5Q=",
+        "owner": "LineageOS",
+        "repo": "android_hardware_samsung",
+        "rev": "f743a63d1bd900085fd986a5e00af933ef621450",
+        "type": "github"
+      },
+      "original": {
+        "owner": "LineageOS",
+        "ref": "lineage-23.2",
+        "repo": "android_hardware_samsung",
+        "type": "github"
+      }
+    },
+    "android-hardware-samsung-slsi-linaro-config": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1776062215,
+        "narHash": "sha256-Xsh8WT8ZzNi8jQk+IrruntSJOjwVf1wnDIo3xS6ABYI=",
+        "owner": "LineageOS",
+        "repo": "android_hardware_samsung_slsi-linaro_config",
+        "rev": "fa6c5de5e721d294e0c9ae9e9aa0e5b3f661b7a6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "LineageOS",
+        "ref": "lineage-23.2",
+        "repo": "android_hardware_samsung_slsi-linaro_config",
+        "type": "github"
+      }
+    },
+    "android-hardware-samsung-slsi-linaro-exynos": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1779900736,
+        "narHash": "sha256-0Nf41HEOfdS+pXV9Kki62prGl5vG0jNnEuYnoa5mTHI=",
+        "owner": "LineageOS",
+        "repo": "android_hardware_samsung_slsi-linaro_exynos",
+        "rev": "788a8e703ff65f1539c9f14e8c4b2f1bec0d7747",
+        "type": "github"
+      },
+      "original": {
+        "owner": "LineageOS",
+        "ref": "lineage-23.2",
+        "repo": "android_hardware_samsung_slsi-linaro_exynos",
+        "type": "github"
+      }
+    },
+    "android-hardware-samsung-slsi-linaro-exynos5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1737109914,
+        "narHash": "sha256-2TWqYim/Od4kF+H/buGN2bOKGgdUJi39e0xr62wXs4s=",
+        "owner": "LineageOS",
+        "repo": "android_hardware_samsung_slsi-linaro_exynos5",
+        "rev": "7a7c982313e0821898ef9c696d3e12da95cfe037",
+        "type": "github"
+      },
+      "original": {
+        "owner": "LineageOS",
+        "ref": "lineage-23.2",
+        "repo": "android_hardware_samsung_slsi-linaro_exynos5",
+        "type": "github"
+      }
+    },
+    "android-hardware-samsung-slsi-linaro-graphics": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1780135959,
+        "narHash": "sha256-DEq76pD2hRfq/IlL/zQ8Na3GZ3hmzyrezWl3OrFQeA4=",
+        "owner": "LineageOS",
+        "repo": "android_hardware_samsung_slsi-linaro_graphics",
+        "rev": "3167604b43d26c27fc42d613d31e2170e4022897",
+        "type": "github"
+      },
+      "original": {
+        "owner": "LineageOS",
+        "ref": "lineage-23.2",
+        "repo": "android_hardware_samsung_slsi-linaro_graphics",
+        "type": "github"
+      }
+    },
+    "android-hardware-samsung-slsi-linaro-interfaces": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1764621319,
+        "narHash": "sha256-kF/ZbSp5zcp5as+Yb24ru1UusI8QSgMDBSbW5YK2qII=",
+        "owner": "LineageOS",
+        "repo": "android_hardware_samsung_slsi-linaro_interfaces",
+        "rev": "aa39734cbeb5ea14a28c170ac7b4527942b703a0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "LineageOS",
+        "ref": "lineage-23.2",
+        "repo": "android_hardware_samsung_slsi-linaro_interfaces",
+        "type": "github"
+      }
+    },
+    "android-hardware-samsung-slsi-linaro-openmax": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1764605137,
+        "narHash": "sha256-Vw8OGU86mwMB0vrQxkX/ewJ9bMU9ps4v3Y18m7JmuSc=",
+        "owner": "LineageOS",
+        "repo": "android_hardware_samsung_slsi-linaro_openmax",
+        "rev": "15ab30812af9fe39fff2ae3cd867d7e954c73881",
+        "type": "github"
+      },
+      "original": {
+        "owner": "LineageOS",
+        "ref": "lineage-23.2",
+        "repo": "android_hardware_samsung_slsi-linaro_openmax",
+        "type": "github"
+      }
+    },
+    "android-hardware-samsung-slsi-nfc": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1780510415,
+        "narHash": "sha256-s427bOAuGWdgTBvC+rNJa25EkJY8fK8uA1YepW5xvvk=",
+        "owner": "LineageOS",
+        "repo": "android_hardware_samsung_slsi_nfc",
+        "rev": "88490b4408246e6c10ef1a6942844796f66dee5e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "LineageOS",
+        "ref": "lineage-23.2",
+        "repo": "android_hardware_samsung_slsi_nfc",
+        "type": "github"
+      }
+    },
+    "android-kernel-samsung-exynos9810": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1781294765,
+        "narHash": "sha256-GOdFcmn9zYhlB+4z90G9EVbFX5rn9TmgJfMwR23Ey9U=",
+        "owner": "ExyHyperBrick",
+        "repo": "android_kernel_samsung_exynos9810",
+        "rev": "87ff302a9ad9b2614bb0c23d2817e0bcf62e7f50",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ExyHyperBrick",
+        "ref": "lineage-23.2-bpf-test",
+        "repo": "android_kernel_samsung_exynos9810",
+        "type": "github"
+      }
+    },
+    "androidPkgs": {
+      "inputs": {
+        "devshell": "devshell",
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1772483881,
+        "narHash": "sha256-qqM94h8oArFngEjkwfRR/13hWeC0cmydxy5LuhJsNvo=",
+        "owner": "tadfisher",
+        "repo": "android-nixpkgs",
+        "rev": "14c94be0575cd738174263df6b56efe0c645deaf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tadfisher",
+        "ref": "stable",
+        "repo": "android-nixpkgs",
+        "type": "github"
+      }
+    },
+    "devshell": {
+      "inputs": {
+        "nixpkgs": [
+          "robotnix",
+          "androidPkgs",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1768818222,
+        "narHash": "sha256-460jc0+CZfyaO8+w8JNtlClB2n4ui1RbHfPTLkpwhU8=",
+        "owner": "numtide",
+        "repo": "devshell",
+        "rev": "255a2b1725a20d060f566e4755dbf571bbbb5f76",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "devshell",
+        "type": "github"
+      }
+    },
+    "flake-compat": {
+      "locked": {
+        "lastModified": 1761640442,
+        "narHash": "sha256-AtrEP6Jmdvrqiv4x2xa5mrtaIp3OEe8uBYCDZDS+hu8=",
+        "owner": "nix-community",
+        "repo": "flake-compat",
+        "rev": "4a56054d8ffc173222d09dad23adf4ba946c8884",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "flake-compat",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1731533236,
+        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "ims": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1781959452,
+        "narHash": "sha256-Psd0R6i28bNfTAhn/PcnfTXdf9JYyh5eQx/vRVOAlk8=",
+        "ref": "main",
+        "rev": "66da3ca982047792e3f581e2cce47bc83f869bea",
+        "revCount": 320,
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/krazey/ims"
+      },
+      "original": {
+        "ref": "main",
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/krazey/ims"
+      }
+    },
+    "local-manifests": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1780836126,
+        "narHash": "sha256-F/sIR4iekoXmbxdbMdy0MySVduy3cBm5zLpCgTuo/Co=",
+        "owner": "ExyHyperBrick",
+        "repo": "local_manifests",
+        "rev": "5300a53a358e7aa64c23c8f7a86582e66d1761b1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ExyHyperBrick",
+        "ref": "lineage-23.2-wip",
+        "repo": "local_manifests",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1781577229,
+        "narHash": "sha256-lrp67w8AulE9Ks53n27I45ADSzbOCn4H+CNW1Ck8B+8=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs-nixfmt-old": {
+      "locked": {
+        "lastModified": 1750622754,
+        "narHash": "sha256-kMhs+YzV4vPGfuTpD3mwzibWUE6jotw5Al2wczI0Pv8=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "c7ab75210cb8cb16ddd8f290755d9558edde7ee1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "c7ab75210cb8cb16ddd8f290755d9558edde7ee1",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1772433332,
+        "narHash": "sha256-izhTDFKsg6KeVBxJS9EblGeQ8y+O8eCa6RcW874vxEc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "cf59864ef8aa2e178cccedbe2c178185b0365705",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_3": {
+      "locked": {
+        "lastModified": 1772433332,
+        "narHash": "sha256-izhTDFKsg6KeVBxJS9EblGeQ8y+O8eCa6RcW874vxEc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "cf59864ef8aa2e178cccedbe2c178185b0365705",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "proprietary-vendor-samsung-crownlte": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1780428970,
+        "narHash": "sha256-j/HYhIas8tlyIx6+U1xuMAmzP2X3M2PId0W2tEZdy+w=",
+        "owner": "ExyHyperBrick",
+        "repo": "proprietary_vendor_samsung_crownlte",
+        "rev": "b3c055f073fc7bc43e2eba8e092fb0f742e0ab2b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ExyHyperBrick",
+        "ref": "lineage-23.2",
+        "repo": "proprietary_vendor_samsung_crownlte",
+        "type": "github"
+      }
+    },
+    "proprietary-vendor-samsung-exynos9810-common": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1780013116,
+        "narHash": "sha256-AELqucmB2iGgHPiImmcG6pgsUHAVLCY/5WdRWV1jQYQ=",
+        "owner": "ExyHyperBrick",
+        "repo": "proprietary_vendor_samsung_exynos9810-common",
+        "rev": "ae2202b18797b2337902a226c30afacc4b1477da",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ExyHyperBrick",
+        "ref": "lineage-23.2",
+        "repo": "proprietary_vendor_samsung_exynos9810-common",
+        "type": "github"
+      }
+    },
+    "proprietary-vendor-samsung-star2lte": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1780429069,
+        "narHash": "sha256-5NcRKyMLiHYclRhddPLNAaZcvBb00itgruukwU0LTrU=",
+        "owner": "ExyHyperBrick",
+        "repo": "proprietary_vendor_samsung_star2lte",
+        "rev": "f38989c14525b968ca2da64c5809d52097d4fb61",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ExyHyperBrick",
+        "ref": "lineage-23.2",
+        "repo": "proprietary_vendor_samsung_star2lte",
+        "type": "github"
+      }
+    },
+    "proprietary-vendor-samsung-starlte": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1780429094,
+        "narHash": "sha256-4h8pTJ5P+ukZKpSQ5OdYiOq3kebC/lWZfQof1HTbFOY=",
+        "owner": "ExyHyperBrick",
+        "repo": "proprietary_vendor_samsung_starlte",
+        "rev": "5a66a1d3c13259eb0bd88b21a107720a57c4d167",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ExyHyperBrick",
+        "ref": "lineage-23.2",
+        "repo": "proprietary_vendor_samsung_starlte",
+        "type": "github"
+      }
+    },
+    "robotnix": {
+      "inputs": {
+        "androidPkgs": "androidPkgs",
+        "flake-compat": "flake-compat",
+        "nixpkgs": "nixpkgs_3",
+        "nixpkgs-nixfmt-old": "nixpkgs-nixfmt-old",
+        "treefmt-nix": "treefmt-nix"
+      },
+      "locked": {
+        "lastModified": 1780035230,
+        "narHash": "sha256-u1xJwSMWHPIju3q4KlP4MjsEVK5dnUxb7sEX0Gl/abc=",
+        "owner": "nix-community",
+        "repo": "robotnix",
+        "rev": "b731f1aa2bfd26763714495a12ad50f6a9bd12ca",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "ref": "master",
+        "repo": "robotnix",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "android-device-samsung-crownlte": "android-device-samsung-crownlte",
+        "android-device-samsung-exynos9810-common": "android-device-samsung-exynos9810-common",
+        "android-device-samsung-slsi-sepolicy": "android-device-samsung-slsi-sepolicy",
+        "android-device-samsung-star2lte": "android-device-samsung-star2lte",
+        "android-device-samsung-starlte": "android-device-samsung-starlte",
+        "android-hardware-samsung": "android-hardware-samsung",
+        "android-hardware-samsung-slsi-linaro-config": "android-hardware-samsung-slsi-linaro-config",
+        "android-hardware-samsung-slsi-linaro-exynos": "android-hardware-samsung-slsi-linaro-exynos",
+        "android-hardware-samsung-slsi-linaro-exynos5": "android-hardware-samsung-slsi-linaro-exynos5",
+        "android-hardware-samsung-slsi-linaro-graphics": "android-hardware-samsung-slsi-linaro-graphics",
+        "android-hardware-samsung-slsi-linaro-interfaces": "android-hardware-samsung-slsi-linaro-interfaces",
+        "android-hardware-samsung-slsi-linaro-openmax": "android-hardware-samsung-slsi-linaro-openmax",
+        "android-hardware-samsung-slsi-nfc": "android-hardware-samsung-slsi-nfc",
+        "android-kernel-samsung-exynos9810": "android-kernel-samsung-exynos9810",
+        "ims": "ims",
+        "local-manifests": "local-manifests",
+        "nixpkgs": "nixpkgs",
+        "proprietary-vendor-samsung-crownlte": "proprietary-vendor-samsung-crownlte",
+        "proprietary-vendor-samsung-exynos9810-common": "proprietary-vendor-samsung-exynos9810-common",
+        "proprietary-vendor-samsung-star2lte": "proprietary-vendor-samsung-star2lte",
+        "proprietary-vendor-samsung-starlte": "proprietary-vendor-samsung-starlte",
+        "robotnix": "robotnix"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    "treefmt-nix": {
+      "inputs": {
+        "nixpkgs": [
+          "robotnix",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1770228511,
+        "narHash": "sha256-wQ6NJSuFqAEmIg2VMnLdCnUc0b7vslUohqqGGD+Fyxk=",
+        "owner": "numtide",
+        "repo": "treefmt-nix",
+        "rev": "337a4fe074be1042a35086f15481d763b8ddc0e7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "treefmt-nix",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

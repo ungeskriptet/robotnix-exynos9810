@@ -491,16 +491,16 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1780035230,
-        "narHash": "sha256-u1xJwSMWHPIju3q4KlP4MjsEVK5dnUxb7sEX0Gl/abc=",
-        "owner": "nix-community",
+        "lastModified": 1781461924,
+        "narHash": "sha256-SvXKvEIAhs2fSenivvMGySWMBe0JAaV+Arb31iecMqI=",
+        "owner": "autra",
         "repo": "robotnix",
-        "rev": "b731f1aa2bfd26763714495a12ad50f6a9bd12ca",
+        "rev": "0e5d81d47974b70a8716c0ae3f8dca20ebada38f",
         "type": "github"
       },
       "original": {
-        "owner": "nix-community",
-        "ref": "master",
+        "owner": "autra",
+        "ref": "update_lineage",
         "repo": "robotnix",
         "type": "github"
       }

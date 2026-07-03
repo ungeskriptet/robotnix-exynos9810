@@ -1,8 +1,7 @@
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    robotnix.url = "github:autra/robotnix/update_lineage";
-
+    robotnix.url = "github:ungeskriptet/robotnix/lineage-update";
     android-kernel-samsung-exynos9810 = {
       url = "github:ExyHyperBrick/android_kernel_samsung_exynos9810/lineage-23.2-bpf-test";
       flake = false;

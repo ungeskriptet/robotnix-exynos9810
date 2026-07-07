@@ -15,8 +15,9 @@ in
   flavor = "lineageos";
   flavorVersion = "23.2";
 
-  apps.fdroid.enable = true;
-  microg.enable = true;
+  envVars = {
+    WITH_GMS = "true";
+  };
 
   source.dirs = {
     "device/samsung/crownlte".src = inputs.android-device-samsung-crownlte;
@@ -55,6 +56,7 @@ in
       "${patches}/system_tools_mkbootimg_433617.diff"
     ];
     "external/cronet".patches = [ "${patches}/external_cronet_433320.diff" ];
+    "vendor/partner_gms".src = inputs.android-vendor-partner-gms;
   };
 
   stateVersion = "3";

@@ -238,6 +238,23 @@
         "type": "github"
       }
     },
+    "android-vendor-partner-gms": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1782824010,
+        "narHash": "sha256-jfyzuMQQzeTR73yy1pHDE4z+V3B7Vj0rl/iBtL/3ZZw=",
+        "ref": "main",
+        "rev": "37fef67219332faa9b338c254f58bc7b0c1c759b",
+        "revCount": 216,
+        "type": "git",
+        "url": "https://gitlab.com/itsvixano-dev/android/lineageos-personal/android_vendor_partner_gms.git"
+      },
+      "original": {
+        "ref": "main",
+        "type": "git",
+        "url": "https://gitlab.com/itsvixano-dev/android/lineageos-personal/android_vendor_partner_gms.git"
+      }
+    },
     "androidPkgs": {
       "inputs": {
         "devshell": "devshell",
@@ -521,6 +538,7 @@
         "android-hardware-samsung-slsi-linaro-openmax": "android-hardware-samsung-slsi-linaro-openmax",
         "android-hardware-samsung-slsi-nfc": "android-hardware-samsung-slsi-nfc",
         "android-kernel-samsung-exynos9810": "android-kernel-samsung-exynos9810",
+        "android-vendor-partner-gms": "android-vendor-partner-gms",
         "ims": "ims",
         "local-manifests": "local-manifests",
         "nixpkgs": "nixpkgs",

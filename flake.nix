@@ -92,6 +92,11 @@
       flake = false;
     };
 
+    android-vendor-partner-gms = {
+      url = "git+https://gitlab.com/itsvixano-dev/android/lineageos-personal/android_vendor_partner_gms.git?ref=main";
+      flake = false;
+    };
+
     ims = {
       url = "git+https://github.com/krazey/ims?ref=main&submodules=1";
       flake = false;

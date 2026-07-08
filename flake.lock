@@ -241,11 +241,11 @@
     "android-vendor-partner-gms": {
       "flake": false,
       "locked": {
-        "lastModified": 1782824010,
-        "narHash": "sha256-jfyzuMQQzeTR73yy1pHDE4z+V3B7Vj0rl/iBtL/3ZZw=",
+        "lastModified": 1783524220,
+        "narHash": "sha256-wV48KyyCWHSHbXNc0vNH79MbxIK7+aMkOqmeGAtuUHI=",
         "ref": "main",
-        "rev": "37fef67219332faa9b338c254f58bc7b0c1c759b",
-        "revCount": 216,
+        "rev": "7d908d421aa853bde0e005d9294d0007b6924cb1",
+        "revCount": 217,
         "type": "git",
         "url": "https://gitlab.com/itsvixano-dev/android/lineageos-personal/android_vendor_partner_gms.git"
       },

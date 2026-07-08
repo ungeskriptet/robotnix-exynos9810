@@ -57,6 +57,9 @@ in
     ];
     "external/cronet".patches = [ "${patches}/external_cronet_433320.diff" ];
     "vendor/partner_gms".src = inputs.android-vendor-partner-gms;
+    "frameworks/base".patches = [
+      ./patches/0005-Disable-screenshot-restrictions-and-audio-capture-blocking.patch
+    ];
   };
 
   stateVersion = "3";

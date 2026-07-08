@@ -1,0 +1,81 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: flame-0 <fl4m3@pm.me>
+Date: Mon, 8 Sep 2025 16:23:08 +0800
+Subject: [PATCH 5/7] Disable screenshot restrictions and audio capture blocking
+
+---
+ .../internal/pm/parsing/pkg/PackageImpl.java  |  2 +-
+ .../server/wm/WindowManagerService.java       | 19 ++-----------------
+ .../com/android/server/wm/WindowState.java    | 16 +---------------
+ 3 files changed, 4 insertions(+), 33 deletions(-)
+
+diff --git a/core/java/com/android/internal/pm/parsing/pkg/PackageImpl.java b/core/java/com/android/internal/pm/parsing/pkg/PackageImpl.java
+index 6146c4e28224..fce281e24486 100644
+--- a/core/java/com/android/internal/pm/parsing/pkg/PackageImpl.java
++++ b/core/java/com/android/internal/pm/parsing/pkg/PackageImpl.java
+@@ -1585,7 +1585,7 @@ public class PackageImpl implements ParsedPackage, AndroidPackageInternal,
+ 
+     @Override
+     public boolean isAllowAudioPlaybackCapture() {
+-        return getBoolean(Booleans.ALLOW_AUDIO_PLAYBACK_CAPTURE);
++        return true;
+     }
+ 
+     @Override
+diff --git a/services/core/java/com/android/server/wm/WindowManagerService.java b/services/core/java/com/android/server/wm/WindowManagerService.java
+index c4fd7cad4f8a..1150b8febf4f 100644
+--- a/services/core/java/com/android/server/wm/WindowManagerService.java
++++ b/services/core/java/com/android/server/wm/WindowManagerService.java
+@@ -10752,23 +10752,8 @@ public class WindowManagerService extends IWindowManager.Stub
+                 "notifyScreenshotListeners()")) {
+             throw new SecurityException("Requires STATUS_BAR_SERVICE permission");
+         }
+-        synchronized (mGlobalLock) {
+-            final DisplayContent displayContent = mRoot.getDisplayContent(displayId);
+-            if (displayContent == null) {
+-                return new ArrayList<>();
+-            }
+-            ArraySet<ComponentName> notifiedApps = new ArraySet<>();
+-            displayContent.forAllActivities(
+-                    (ar) -> {
+-                        if (!notifiedApps.contains(ar.mActivityComponent) && ar.isVisible()
+-                                && ar.isRegisteredForScreenCaptureCallback()) {
+-                            ar.reportScreenCaptured();
+-                            notifiedApps.add(ar.mActivityComponent);
+-                        }
+-                    },
+-                    true /* traverseTopToBottom */);
+-            return List.copyOf(notifiedApps);
+-        }
++
++        return new ArrayList<>();
+     }
+ 
+     /**
+diff --git a/services/core/java/com/android/server/wm/WindowState.java b/services/core/java/com/android/server/wm/WindowState.java
+index 169f0592b12e..fcfcc6064a66 100644
+--- a/services/core/java/com/android/server/wm/WindowState.java
++++ b/services/core/java/com/android/server/wm/WindowState.java
+@@ -1872,21 +1872,7 @@ class WindowState extends WindowContainer<WindowState> implements WindowManagerP
+     }
+ 
+     boolean isSecureLocked() {
+-        if (mWmService.getDisableSecureWindows()) {
+-            return false;
+-        }
+-
+-        if ((mAttrs.flags & WindowManager.LayoutParams.FLAG_SECURE) != 0) {
+-            return true;
+-        }
+-
+-        // block screen capture to protect sensitive notifications or content on the screen.
+-        if (mWmService.mSensitiveContentPackages.shouldBlockScreenCaptureForApp(
+-                getOwningPackage(), getOwningUid(), getWindowToken())) {
+-            return true;
+-        }
+-
+-        return !DevicePolicyCache.getInstance().isScreenCaptureAllowed(mShowUserId);
++        return false;
+     }
+ 
+     /**

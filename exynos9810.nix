@@ -33,6 +33,7 @@ in
       inputs.android-hardware-samsung-slsi-linaro-interfaces;
     "hardware/samsung_slsi-linaro/openmax".src = inputs.android-hardware-samsung-slsi-linaro-openmax;
     "hardware/samsung_slsi/nfc".src = inputs.android-hardware-samsung-slsi-nfc;
+    "hardware/samsung_slsi/exynos/dtbh".src = inputs.android-hardware-samsung-slsi-exynos-dtbh;
     "hardware/samsung".src = inputs.android-hardware-samsung;
     "kernel/samsung/exynos9810".src = inputs.android-kernel-samsung-exynos9810;
     "packages/apps/PhhIms".src = inputs.ims;

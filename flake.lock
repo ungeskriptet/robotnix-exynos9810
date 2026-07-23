@@ -102,6 +102,23 @@
         "type": "github"
       }
     },
+    "android-hardware-samsung-slsi-exynos-dtbh": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1767279171,
+        "narHash": "sha256-VZx1bdlAtIFemVob5KeuBkkq7rSco9f3Lif9SC88InQ=",
+        "owner": "ExyHyperBrick",
+        "repo": "android_hardware_samsung_slsi_exynos_dtbh",
+        "rev": "c9bceb0d9b7ecde0e4e13b859c163b7568b9398a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ExyHyperBrick",
+        "ref": "lineage-23.2",
+        "repo": "android_hardware_samsung_slsi_exynos_dtbh",
+        "type": "github"
+      }
+    },
     "android-hardware-samsung-slsi-linaro-config": {
       "flake": false,
       "locked": {
@@ -544,6 +561,7 @@
         "android-device-samsung-star2lte": "android-device-samsung-star2lte",
         "android-device-samsung-starlte": "android-device-samsung-starlte",
         "android-hardware-samsung": "android-hardware-samsung",
+        "android-hardware-samsung-slsi-exynos-dtbh": "android-hardware-samsung-slsi-exynos-dtbh",
         "android-hardware-samsung-slsi-linaro-config": "android-hardware-samsung-slsi-linaro-config",
         "android-hardware-samsung-slsi-linaro-exynos": "android-hardware-samsung-slsi-linaro-exynos",
         "android-hardware-samsung-slsi-linaro-exynos5": "android-hardware-samsung-slsi-linaro-exynos5",

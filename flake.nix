@@ -92,6 +92,11 @@
       flake = false;
     };
 
+    android-hardware-samsung-slsi-exynos-dtbh = {
+      url = "github:ExyHyperBrick/android_hardware_samsung_slsi_exynos_dtbh/lineage-23.2";
+      flake = false;
+    };
+
     android-vendor-partner-gms = {
       url = "git+https://gitlab.com/itsvixano-dev/android/lineageos-personal/android_vendor_partner_gms.git?ref=main";
       flake = false;

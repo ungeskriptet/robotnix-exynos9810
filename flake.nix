@@ -97,6 +97,11 @@
       flake = false;
     };
 
+    android-vendor-extra = {
+      url = "https://codeberg.org/ungeskriptet/android_vendor_extra/archive/master.tar.gz";
+      flake = false;
+    };
+
     ims = {
       url = "git+https://github.com/krazey/ims?ref=main&submodules=1";
       flake = false;

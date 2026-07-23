@@ -36,7 +36,7 @@ in
     "hardware/samsung".src = inputs.android-hardware-samsung;
     "kernel/samsung/exynos9810".src = inputs.android-kernel-samsung-exynos9810;
     "packages/apps/PhhIms".src = inputs.ims;
-    "vendor/extra".src = ./vendor-extra;
+    "vendor/extra".src = inputs.android-vendor-extra;
     "vendor/samsung/crownlte".src = inputs.proprietary-vendor-samsung-crownlte;
     "vendor/samsung/exynos9810-common".src = inputs.proprietary-vendor-samsung-exynos9810-common;
     "vendor/samsung/star2lte".src = inputs.proprietary-vendor-samsung-star2lte;

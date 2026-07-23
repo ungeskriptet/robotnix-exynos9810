@@ -238,6 +238,20 @@
         "type": "github"
       }
     },
+    "android-vendor-extra": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1784177087,
+        "narHash": "sha256-5kRwlvgP7e0uDsuqSb0dMIhaXQF7G9tWSbhrLOrZ6Zs=",
+        "rev": "a6fda81fd5b6ad28ac3b2b4c3af60866a1de859e",
+        "type": "tarball",
+        "url": "https://codeberg.org/api/v1/repos/ungeskriptet/android_vendor_extra/archive/a6fda81fd5b6ad28ac3b2b4c3af60866a1de859e.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://codeberg.org/ungeskriptet/android_vendor_extra/archive/master.tar.gz"
+      }
+    },
     "android-vendor-partner-gms": {
       "flake": false,
       "locked": {
@@ -538,6 +552,7 @@
         "android-hardware-samsung-slsi-linaro-openmax": "android-hardware-samsung-slsi-linaro-openmax",
         "android-hardware-samsung-slsi-nfc": "android-hardware-samsung-slsi-nfc",
         "android-kernel-samsung-exynos9810": "android-kernel-samsung-exynos9810",
+        "android-vendor-extra": "android-vendor-extra",
         "android-vendor-partner-gms": "android-vendor-partner-gms",
         "ims": "ims",
         "local-manifests": "local-manifests",

@@ -3,12 +3,12 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     robotnix.url = "github:ungeskriptet/robotnix/lineage-update";
     android-kernel-samsung-exynos9810 = {
-      url = "github:ExyHyperBrick/android_kernel_samsung_exynos9810/lineage-23.2-bpf-test";
+      url = "github:ExyHyperBrick/android_kernel_samsung_exynos9810/lineage-23.2";
       flake = false;
     };
 
     android-device-samsung-exynos9810-common = {
-      url = "github:ExyHyperBrick/android_device_samsung_exynos9810-common/lineage-23.2";
+      url = "github:ExyHyperBrick/android_device_samsung_exynos9810-common/lineage-23.2-imsstack";
       flake = false;
     };
 
@@ -107,13 +107,23 @@
       flake = false;
     };
 
-    ims = {
-      url = "git+https://github.com/krazey/ims?ref=main&submodules=1";
+    imsmedia = {
+      url = "github:krazey/ImsMedia/main";
+      flake = false;
+    };
+
+    imsstack = {
+      url = "github:krazey/ImsStack/main";
+      flake = false;
+    };
+
+    imsstack-carrier-config-ext = {
+      url = "github:krazey/imsstack-carrier-config-ext/main";
       flake = false;
     };
 
     local-manifests = {
-      url = "github:ExyHyperBrick/local_manifests/lineage-23.2-wip";
+      url = "github:ExyHyperBrick/local_manifests/lineage-23.2-imsstack";
       flake = false;
     };
   };

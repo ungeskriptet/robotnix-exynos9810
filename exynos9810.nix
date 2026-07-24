@@ -36,7 +36,6 @@ in
     "hardware/samsung_slsi/exynos/dtbh".src = inputs.android-hardware-samsung-slsi-exynos-dtbh;
     "hardware/samsung".src = inputs.android-hardware-samsung;
     "kernel/samsung/exynos9810".src = inputs.android-kernel-samsung-exynos9810;
-    "packages/apps/PhhIms".src = inputs.ims;
     "vendor/extra".src = inputs.android-vendor-extra;
     "vendor/samsung/crownlte".src = inputs.proprietary-vendor-samsung-crownlte;
     "vendor/samsung/exynos9810-common".src = inputs.proprietary-vendor-samsung-exynos9810-common;
@@ -61,6 +60,12 @@ in
     "frameworks/base".patches = [
       ./patches/0005-Disable-screenshot-restrictions-and-audio-capture-blocking.patch
     ];
+    "packages/services/QualifiedNetworksService".patches = [
+      "${patches}/0001-qns-track-the-system-default-network-through-app-VPN.patch"
+    ];
+    "packages/modules/ImsMedia".src = inputs.imsmedia;
+    "packages/modules/ImsStack".src = inputs.imsstack;
+    "vendor/lineage/imsstack-carrier-config-ext".src = inputs.imsstack-carrier-config-ext;
   };
 
   stateVersion = "3";

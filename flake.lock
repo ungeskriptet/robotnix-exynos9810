@@ -20,11 +20,11 @@
     "android-device-samsung-exynos9810-common": {
       "flake": false,
       "locked": {
-        "lastModified": 1784839506,
+        "lastModified": 1784999828,
         "narHash": "sha256-ne6hZ67WSZFRr4lmmEt8tmU6x/G90tgz1r7KYktbGQw=",
         "owner": "ExyHyperBrick",
         "repo": "android_device_samsung_exynos9810-common",
-        "rev": "57485c8ac1cc7bb0f36413b97d86587812b681cd",
+        "rev": "abb791cb21005801f114b92008547312d17c6eac",
         "type": "github"
       },
       "original": {
@@ -241,11 +241,11 @@
     "android-kernel-samsung-exynos9810": {
       "flake": false,
       "locked": {
-        "lastModified": 1784642990,
-        "narHash": "sha256-NnEnMKEJU7lHZ8+joLHqMaIlJaEW14vxdcaUeebU3Hc=",
+        "lastModified": 1785091702,
+        "narHash": "sha256-fGxtkrnH++QK10zxQ8WL6tXgLE93PzsMRICI1K5IxFM=",
         "owner": "ExyHyperBrick",
         "repo": "android_kernel_samsung_exynos9810",
-        "rev": "029de60d5240b79eb4563ac35eda9747caa7e818",
+        "rev": "85bd0adb77d33ca83a0813a0cff57488604c8ec0",
         "type": "github"
       },
       "original": {
@@ -382,11 +382,11 @@
     "imsstack": {
       "flake": false,
       "locked": {
-        "lastModified": 1784980314,
-        "narHash": "sha256-dhj0A4zIe+0auq9diwLOVbL3/2fh7ExMDwFPXHNUfAI=",
+        "lastModified": 1784992272,
+        "narHash": "sha256-aM8pd1yKGLDnoWUe6Q0qHZLwDV7SwX/mglJjEhxci04=",
         "owner": "krazey",
         "repo": "ImsStack",
-        "rev": "3794ec55a7b073d685d976bb0914479dce680000",
+        "rev": "fca80710127d6e55f58365e826474c46eeec4db8",
         "type": "github"
       },
       "original": {
@@ -399,11 +399,11 @@
     "imsstack-carrier-config-ext": {
       "flake": false,
       "locked": {
-        "lastModified": 1784899275,
-        "narHash": "sha256-vSZLRpCTbyaUXt0nx6+g5Gl7vDA/H70o3ohNrcOT4BM=",
+        "lastModified": 1784990006,
+        "narHash": "sha256-hmJvvg9npJ+sngdoLAGOzdR86wrDEXqiEzpJKNdUay4=",
         "owner": "krazey",
         "repo": "imsstack-carrier-config-ext",
-        "rev": "4f81f93b93e0c89fd8382df022344536336ff12c",
+        "rev": "fdab0a067cb75cabbd13ad78fbc1a91ddc89db4b",
         "type": "github"
       },
       "original": {
@@ -432,11 +432,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1784796856,
-        "narHash": "sha256-wWFrV5/Qbm+lyt5x20E/bSbfJiGKMo4RCxZV8cl/WZI=",
+        "lastModified": 1785090369,
+        "narHash": "sha256-m0pDuRJG7EDo9ri+4Ksu83VsI+PlxNC9lNBfydejce4=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "e2587caef70cea85dd97d7daab492899902dbf5d",
+        "rev": "624af665418d3c65d544145b4d34ad696439570e",
         "type": "github"
       },
       "original": {

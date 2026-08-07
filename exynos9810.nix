@@ -66,6 +66,10 @@ in
     "packages/modules/ImsMedia".src = inputs.imsmedia;
     "packages/modules/ImsStack".src = inputs.imsstack;
     "vendor/lineage/imsstack-carrier-config-ext".src = inputs.imsstack-carrier-config-ext;
+    "packages/modules/Bluetooth".patches = [
+      ./patches/0001-Bluetooth-Add-REQUEST_INSTALL_PACKAGES-permission-to.patch
+      ./patches/0002-Bluetooth-Allow-sending-any-file-via-Bluetooth.patch
+    ];
   };
 
   stateVersion = "3";

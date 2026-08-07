@@ -1,0 +1,26 @@
+From fe376ba370ddc7391492903ba5344a371bbf7138 Mon Sep 17 00:00:00 2001
+From: Col_or <1638876934@qq.com>
+Date: Sat, 25 Dec 2021 17:55:16 +0800
+Subject: [PATCH 1/2] Bluetooth: Add REQUEST_INSTALL_PACKAGES permission to
+ install apk
+
+Change-Id: I7dcb7b39f12e8f5ac51eacf1c9ae1b766d6e84aa
+---
+ android/app/AndroidManifest.xml | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/android/app/AndroidManifest.xml b/android/app/AndroidManifest.xml
+index f7a6fac523..a684a9c2d3 100644
+--- a/android/app/AndroidManifest.xml
++++ b/android/app/AndroidManifest.xml
+@@ -79,6 +79,7 @@
+     <uses-permission android:name="android.permission.WRITE_SECURITY_LOG"/>
+     <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+     <uses-permission android:name="android.permission.WRITE_SMS"/>
++    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+ 
+     <uses-sdk android:minSdkVersion="36"/>
+ 
+-- 
+2.55.0
+

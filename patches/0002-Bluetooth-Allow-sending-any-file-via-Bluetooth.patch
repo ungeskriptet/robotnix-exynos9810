@@ -1,0 +1,33 @@
+From dd28c2fabf569bcc784be9e83a99514132d26b0c Mon Sep 17 00:00:00 2001
+From: Col_or <1638876934@qq.com>
+Date: Mon, 14 Mar 2022 14:40:46 +0800
+Subject: [PATCH 2/2] Bluetooth: Allow sending any file via Bluetooth
+
+Change-Id: I0c6a46bb79c4cc8ac1f55eae0945769fed2c032d
+---
+ android/app/AndroidManifest.xml | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/android/app/AndroidManifest.xml b/android/app/AndroidManifest.xml
+index a684a9c2d3..c1fcc84bdf 100644
+--- a/android/app/AndroidManifest.xml
++++ b/android/app/AndroidManifest.xml
+@@ -209,6 +209,7 @@
+                 <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+                 <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+                 <data android:mimeType="application/x-hwp"/>
++                <data android:mimeType="*/*" />
+             </intent-filter>
+             <intent-filter>
+                 <action android:name="android.intent.action.SEND_MULTIPLE"/>
+@@ -218,6 +219,7 @@
+                 <data android:mimeType="video/*"/>
+                 <data android:mimeType="x-mixmedia/*"/>
+                 <data android:mimeType="text/x-vcard"/>
++                <data android:mimeType="*/*" />
+             </intent-filter>
+             <intent-filter>
+                 <action android:name="android.btopp.intent.action.OPEN"/>
+-- 
+2.55.0
+

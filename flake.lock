@@ -20,11 +20,11 @@
     "android-device-samsung-exynos9810-common": {
       "flake": false,
       "locked": {
-        "lastModified": 1785930545,
-        "narHash": "sha256-P0jCWJTVXgMljFLyQSrjF10lYQDc3BjBVRb62OXStII=",
+        "lastModified": 1786117509,
+        "narHash": "sha256-j03SgPv8OUi98eru2T+oTwUsWTitxwivyHKu9YytyBM=",
         "owner": "ExyHyperBrick",
         "repo": "android_device_samsung_exynos9810-common",
-        "rev": "e087a533970ccb2485fdc30a3279078ed4df9dd3",
+        "rev": "ac1db26bcf13ea005acd2a67c8a20edf28942d6d",
         "type": "github"
       },
       "original": {
@@ -173,11 +173,11 @@
     "android-hardware-samsung-slsi-linaro-graphics": {
       "flake": false,
       "locked": {
-        "lastModified": 1783698565,
-        "narHash": "sha256-gr2j0e+dIZ3Fm+p7xnL3GpFNDUbk58wr5MSMY/FEyyY=",
+        "lastModified": 1786104513,
+        "narHash": "sha256-OqER2iGK601RvcrdnwtaLEl2GkguTckR7EHs67eob8w=",
         "owner": "LineageOS",
         "repo": "android_hardware_samsung_slsi-linaro_graphics",
-        "rev": "703d69fc4c6e2f59ca2069608ea26c564c6e12a7",
+        "rev": "efecd68d5dbed32e68b6414ce6f96306bc79552f",
         "type": "github"
       },
       "original": {
@@ -241,11 +241,11 @@
     "android-kernel-samsung-exynos9810": {
       "flake": false,
       "locked": {
-        "lastModified": 1785948206,
-        "narHash": "sha256-z8+cq30myROil3bA1RFO8M2HRllsJT0La4CL4D6C1kg=",
+        "lastModified": 1785959255,
+        "narHash": "sha256-QDSxYDyNtBA9sUNmLXWsxNd7n7C8QxE9bGKb7zaG4tE=",
         "owner": "ExyHyperBrick",
         "repo": "android_kernel_samsung_exynos9810",
-        "rev": "42fc135b7fb17480e96c50e38146ee7e938e330e",
+        "rev": "5b88a963be46ecc827f8e29f5560355fba2f8065",
         "type": "github"
       },
       "original": {
@@ -272,11 +272,11 @@
     "android-vendor-partner-gms": {
       "flake": false,
       "locked": {
-        "lastModified": 1785695403,
-        "narHash": "sha256-1GQdDy8vAosZNOHEgyBL2USzzvnEj92U14mpkR/p0oQ=",
+        "lastModified": 1785967208,
+        "narHash": "sha256-lzb9r5MrgiRxUj/8hN9h6/av/wxCK1MpSZqRdRGm0cA=",
         "ref": "main",
-        "rev": "49d886c08d393118a47f82d2ac5dbf07fd2660b5",
-        "revCount": 222,
+        "rev": "7fe7f50bbef775e31295d26318d508b1aef28c28",
+        "revCount": 223,
         "type": "git",
         "url": "https://gitlab.com/itsvixano-dev/android/lineageos-personal/android_vendor_partner_gms.git"
       },
@@ -432,11 +432,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1785828668,
-        "narHash": "sha256-8fsyqeO+mJqvIzeO4xIpgJe/f7MTbbVTEC6RT6WSXNs=",
+        "lastModified": 1785967620,
+        "narHash": "sha256-IItrdb7Puk05RqOBWZYFC5X6Wl1sJmCfh5MWVHw5iMM=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "e72e4f299401a3689d4b3d5fc6496b11db7064eb",
+        "rev": "b7c2ada94fe99c15b0dbcf4d11fd7850b957a436",
         "type": "github"
       },
       "original": {

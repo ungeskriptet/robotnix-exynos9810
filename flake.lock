@@ -3,11 +3,11 @@
     "android-device-samsung-crownlte": {
       "flake": false,
       "locked": {
-        "lastModified": 1784808662,
-        "narHash": "sha256-+4gXw5pNnBGAHsHcF5BoBddRZ3/Ja+/UNDJ1MOPJZgQ=",
+        "lastModified": 1786297637,
+        "narHash": "sha256-dNB6ciXEjalXZ6D+/ac98Ahd3X7cRq8hKvsAVH+elNc=",
         "owner": "ExyHyperBrick",
         "repo": "android_device_samsung_crownlte",
-        "rev": "f090bf41f1a036569fbe02ed6a70fb429711865d",
+        "rev": "f6f1d0bb2aa6b13c5d416d07857ad9b9224e7bfa",
         "type": "github"
       },
       "original": {
@@ -20,11 +20,11 @@
     "android-device-samsung-exynos9810-common": {
       "flake": false,
       "locked": {
-        "lastModified": 1786117509,
-        "narHash": "sha256-j03SgPv8OUi98eru2T+oTwUsWTitxwivyHKu9YytyBM=",
+        "lastModified": 1786352817,
+        "narHash": "sha256-0YoYYmVmkCSRN//ovw9QYFctgXM9KbkKTI8coUIQ75g=",
         "owner": "ExyHyperBrick",
         "repo": "android_device_samsung_exynos9810-common",
-        "rev": "ac1db26bcf13ea005acd2a67c8a20edf28942d6d",
+        "rev": "432ed15a75cbc3502fb6fb9bbd59047a6d69e025",
         "type": "github"
       },
       "original": {
@@ -54,11 +54,11 @@
     "android-device-samsung-star2lte": {
       "flake": false,
       "locked": {
-        "lastModified": 1784808624,
-        "narHash": "sha256-fXRqUOLNDDupH9wb9WRT2IbCN7widtv9pdWNsziGtwM=",
+        "lastModified": 1786297619,
+        "narHash": "sha256-VrPGwERY21EWBWMWA3Nmr5EUzxmn4Yys8M/3t9ujaPU=",
         "owner": "ExyHyperBrick",
         "repo": "android_device_samsung_star2lte",
-        "rev": "0793874623fa1114e705a7035e398842e4373c00",
+        "rev": "33658bb097c54de9585f4f6d2e760cd61f3cc653",
         "type": "github"
       },
       "original": {
@@ -71,11 +71,11 @@
     "android-device-samsung-starlte": {
       "flake": false,
       "locked": {
-        "lastModified": 1784808570,
-        "narHash": "sha256-QKKIMS4MtXmCMZpiGVj2NSiscCycdtv9uvEaWyWBRMo=",
+        "lastModified": 1786297576,
+        "narHash": "sha256-5+1II3ZTscVn8osFfkJoIKBPi72LxqNbk85ptjvNnEk=",
         "owner": "ExyHyperBrick",
         "repo": "android_device_samsung_starlte",
-        "rev": "4b04d7a1b52423c1ecc97b99e2af95d5e24292ca",
+        "rev": "fe56ec96d92085a61d4be5618e082329248c06eb",
         "type": "github"
       },
       "original": {
@@ -241,11 +241,11 @@
     "android-kernel-samsung-exynos9810": {
       "flake": false,
       "locked": {
-        "lastModified": 1785959255,
-        "narHash": "sha256-QDSxYDyNtBA9sUNmLXWsxNd7n7C8QxE9bGKb7zaG4tE=",
+        "lastModified": 1786386723,
+        "narHash": "sha256-kMbpvoUo+ZLuLDFcOzYxu22CKqYAUPenufW5cTIP2kI=",
         "owner": "ExyHyperBrick",
         "repo": "android_kernel_samsung_exynos9810",
-        "rev": "5b88a963be46ecc827f8e29f5560355fba2f8065",
+        "rev": "3b2302ac410d3c73b9034aa6ca5b97fc2645318e",
         "type": "github"
       },
       "original": {
@@ -432,11 +432,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1785967620,
-        "narHash": "sha256-IItrdb7Puk05RqOBWZYFC5X6Wl1sJmCfh5MWVHw5iMM=",
+        "lastModified": 1786247143,
+        "narHash": "sha256-8S3Kcxs7D4UtxJxSJZz0m14CGhuW0MxfrIwJxeGWGnQ=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "b7c2ada94fe99c15b0dbcf4d11fd7850b957a436",
+        "rev": "279b4a8275f032c566576b3f181fa0f27197f588",
         "type": "github"
       },
       "original": {
@@ -571,11 +571,11 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1784932973,
-        "narHash": "sha256-QnXsxkRONfZM/D7utoV2WSqhRT9NIWCFWDGE0Xa9pX4=",
+        "lastModified": 1786227553,
+        "narHash": "sha256-Pze3Sv8rUax5Yevo9dNQZVIEg1QhRb05yNV1HpaSJBg=",
         "owner": "ungeskriptet",
         "repo": "robotnix",
-        "rev": "40c0cb737fe5b973b3628953dd7b5936128bac35",
+        "rev": "9fa6a9295333ef0225c2e33df0ec66bb98982042",
         "type": "github"
       },
       "original": {

@@ -58,6 +58,8 @@ in
     "external/cronet".patches = [ "${patches}/external_cronet_433320.diff" ];
     "vendor/partner_gms".src = inputs.android-vendor-partner-gms;
     "frameworks/base".patches = [
+      ./patches/0001-fwb-Screen-off-animations-1-2.patch
+      ./patches/0002-Fix-crash-with-protected-content-with-ElectronBeam-S.patch
       ./patches/0005-Disable-screenshot-restrictions-and-audio-capture-blocking.patch
     ];
     "packages/services/QualifiedNetworksService".patches = [

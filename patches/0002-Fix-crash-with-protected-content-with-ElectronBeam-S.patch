@@ -1,0 +1,52 @@
+From 59b0ec2de9f9e4c8905e8d544515d54290ce9ed5 Mon Sep 17 00:00:00 2001
+From: Matt Filetto <matt.filetto@gmail.com>
+Date: Tue, 17 May 2022 16:52:58 -0700
+Subject: [PATCH 2/2] Fix crash with protected content with ElectronBeam/Scale
+ screen-off animation
+
+* Kind of an oddly specific use case here but to reproduce:
+  - Enable CRT Screen Off Animation
+  - Start playing a video from Netflix
+  - Turn off screen using  power key, you should see the crash then
+
+Co-authored by: Pranav Vashi <neobuddy89@gmail.com>
+Signed-off-by: Matt Filetto <matt.filetto@gmail.com>
+Signed-off-by: Pranav Vashi <neobuddy89@gmail.com>
+---
+ services/core/java/com/android/server/display/ColorFade.java  | 4 ++--
+ .../core/java/com/android/server/display/ElectronBeam.java    | 4 ++--
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/services/core/java/com/android/server/display/ColorFade.java b/services/core/java/com/android/server/display/ColorFade.java
+index cf14d5ddfef4..3e825a5d7a6c 100644
+--- a/services/core/java/com/android/server/display/ColorFade.java
++++ b/services/core/java/com/android/server/display/ColorFade.java
+@@ -706,8 +706,8 @@ final class ColorFade implements ScreenStateAnimator {
+                     EGL14.EGL_NONE
+             };
+             if (isProtected) {
+-                eglContextAttribList[2] = EGL_PROTECTED_CONTENT_EXT;
+-                eglContextAttribList[3] = EGL14.EGL_TRUE;
++                eglContextAttribList[3] = EGL_PROTECTED_CONTENT_EXT;
++                eglContextAttribList[4] = EGL14.EGL_TRUE;
+             }
+             mEglContext = EGL14.eglCreateContext(mEglDisplay, mEglConfig, EGL14.EGL_NO_CONTEXT,
+                     eglContextAttribList, 0);
+diff --git a/services/core/java/com/android/server/display/ElectronBeam.java b/services/core/java/com/android/server/display/ElectronBeam.java
+index 6b28fa571ecf..f28416703077 100644
+--- a/services/core/java/com/android/server/display/ElectronBeam.java
++++ b/services/core/java/com/android/server/display/ElectronBeam.java
+@@ -701,8 +701,8 @@ final class ElectronBeam implements ScreenStateAnimator {
+                     EGL14.EGL_NONE
+             };
+             if (isProtected) {
+-                eglContextAttribList[2] = EGL_PROTECTED_CONTENT_EXT;
+-                eglContextAttribList[3] = EGL14.EGL_TRUE;
++                eglContextAttribList[3] = EGL_PROTECTED_CONTENT_EXT;
++                eglContextAttribList[4] = EGL14.EGL_TRUE;
+             }
+             mEglContext = EGL14.eglCreateContext(mEglDisplay, mEglConfig, EGL14.EGL_NO_CONTEXT,
+                     eglContextAttribList, 0);
+-- 
+2.55.0
+

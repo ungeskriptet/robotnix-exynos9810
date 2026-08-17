@@ -1,0 +1,40 @@
+From 22f534ea75d433cbf7d39beeb4371a724f6a409c Mon Sep 17 00:00:00 2001
+From: David Wronek <david.wronek@mainlining.org>
+Date: Tue, 11 Aug 2026 21:02:59 +0200
+Subject: [PATCH] Updater: remove battery level check
+
+Signed-off-by: David Wronek <david.wronek@mainlining.org>
+---
+ .../updates/action/UpdateActionHandler.kt        | 16 ----------------
+ 1 file changed, 16 deletions(-)
+
+diff --git a/app/src/main/java/org/lineageos/updater/updates/action/UpdateActionHandler.kt b/app/src/main/java/org/lineageos/updater/updates/action/UpdateActionHandler.kt
+index 8c0ab12..12fd20c 100644
+--- a/app/src/main/java/org/lineageos/updater/updates/action/UpdateActionHandler.kt
++++ b/app/src/main/java/org/lineageos/updater/updates/action/UpdateActionHandler.kt
+@@ -69,22 +69,6 @@ class UpdateActionHandler(
+                     return
+                 }
+ 
+-                if (!batteryMonitor.currentBatteryState.isLevelOk) {
+-                    showDialog(
+-                        AlertDialogState(
+-                            title = activity.getString(R.string.dialog_battery_low_title),
+-                            text = AnnotatedString(
+-                                activity.getString(
+-                                    R.string.dialog_battery_low_message_pct,
+-                                    BatteryState.MIN_BATT_PCT_DISCHARGING,
+-                                    BatteryState.MIN_BATT_PCT_CHARGING,
+-                                )
+-                            ),
+-                        )
+-                    )
+-                    return
+-                }
+-
+                 if (InstallUtils.isScratchMounted()) {
+                     showDialog(
+                         AlertDialogState(
+-- 
+2.55.0
+

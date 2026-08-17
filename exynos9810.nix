@@ -72,6 +72,9 @@ in
       ./patches/0001-Bluetooth-Add-REQUEST_INSTALL_PACKAGES-permission-to.patch
       ./patches/0002-Bluetooth-Allow-sending-any-file-via-Bluetooth.patch
     ];
+    "packages/apps/Updater".patches = [
+      ./patches/0001-Updater-remove-battery-level-check.patch
+    ];
   };
 
   stateVersion = "3";

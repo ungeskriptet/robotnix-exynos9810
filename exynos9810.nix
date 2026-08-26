@@ -76,7 +76,12 @@ in
     "packages/apps/Updater".patches = [
       ./patches/0001-Updater-remove-battery-level-check.patch
     ];
-    "packages/apps/Bellis".src = inputs.bellis;
+    "packages/apps/Bellis" = {
+      src = inputs.bellis;
+      patches = [
+        ./patches/0001-app-Update-systemApps-to-match-LineageOS.patch
+      ];
+    };
   };
 
   stateVersion = "3";

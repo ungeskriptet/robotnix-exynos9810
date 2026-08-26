@@ -82,6 +82,9 @@ in
         ./patches/0001-app-Update-systemApps-to-match-LineageOS.patch
       ];
     };
+    "system/core".patches = [
+      ./patches/0001-init-Report-valid-verified-boot-for-SafetyNet-checks.patch
+    ];
   };
 
   stateVersion = "3";

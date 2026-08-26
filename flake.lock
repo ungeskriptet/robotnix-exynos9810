@@ -20,11 +20,11 @@
     "android-device-samsung-exynos9810-common": {
       "flake": false,
       "locked": {
-        "lastModified": 1786352817,
-        "narHash": "sha256-0YoYYmVmkCSRN//ovw9QYFctgXM9KbkKTI8coUIQ75g=",
+        "lastModified": 1786657580,
+        "narHash": "sha256-InWAjub7ueb8okI2iYdXMicjGY/gM46Ff9wKZ3MOsMI=",
         "owner": "ExyHyperBrick",
         "repo": "android_device_samsung_exynos9810-common",
-        "rev": "432ed15a75cbc3502fb6fb9bbd59047a6d69e025",
+        "rev": "b6f76501183f0518437cfcf521fe3c0a21b27194",
         "type": "github"
       },
       "original": {
@@ -88,11 +88,11 @@
     "android-hardware-samsung": {
       "flake": false,
       "locked": {
-        "lastModified": 1782324607,
-        "narHash": "sha256-9cw9ufPHr58dQcpe4ZzZhUswHLyR+UI8lE1hIoiQlyk=",
+        "lastModified": 1787437043,
+        "narHash": "sha256-7+a81j5WicfLJcb7L3j5Cw2jn9X17avnGtcb/7heRU4=",
         "owner": "LineageOS",
         "repo": "android_hardware_samsung",
-        "rev": "147603411af80cd956a23c5fd9fa5fbd44559320",
+        "rev": "46da74af1f47443f9c88f012b76e8e3869d93b21",
         "type": "github"
       },
       "original": {
@@ -139,11 +139,11 @@
     "android-hardware-samsung-slsi-linaro-exynos": {
       "flake": false,
       "locked": {
-        "lastModified": 1783900303,
-        "narHash": "sha256-O/P0QTSKuBybft4p5klEEB+H2ZUMeYogNISSTFLx/q8=",
+        "lastModified": 1787142885,
+        "narHash": "sha256-2A8GRs5ARa68ESb6YZOF4vPp39IDyjFjRkAPnEX8MZc=",
         "owner": "LineageOS",
         "repo": "android_hardware_samsung_slsi-linaro_exynos",
-        "rev": "2c2b1f889932bbe872c197efe33730f5fc231652",
+        "rev": "3c6d2c4b07896ca0b159667094aa9ef50093ab62",
         "type": "github"
       },
       "original": {
@@ -173,11 +173,11 @@
     "android-hardware-samsung-slsi-linaro-graphics": {
       "flake": false,
       "locked": {
-        "lastModified": 1786104513,
-        "narHash": "sha256-OqER2iGK601RvcrdnwtaLEl2GkguTckR7EHs67eob8w=",
+        "lastModified": 1787439939,
+        "narHash": "sha256-5YCjVRfIJJq5lh8d37QZO47RxdG20GsUYJkF3884dGA=",
         "owner": "LineageOS",
         "repo": "android_hardware_samsung_slsi-linaro_graphics",
-        "rev": "efecd68d5dbed32e68b6414ce6f96306bc79552f",
+        "rev": "7aa62f81acc0aa9dac6b148c1a143d922644def4",
         "type": "github"
       },
       "original": {
@@ -190,11 +190,11 @@
     "android-hardware-samsung-slsi-linaro-interfaces": {
       "flake": false,
       "locked": {
-        "lastModified": 1764621319,
-        "narHash": "sha256-kF/ZbSp5zcp5as+Yb24ru1UusI8QSgMDBSbW5YK2qII=",
+        "lastModified": 1783287617,
+        "narHash": "sha256-sXu7ez3Iq2/cXBaLlhcCXmKgx0pr5Oc8DZHfqiVqJ28=",
         "owner": "LineageOS",
         "repo": "android_hardware_samsung_slsi-linaro_interfaces",
-        "rev": "aa39734cbeb5ea14a28c170ac7b4527942b703a0",
+        "rev": "a23ed82b3f3859aa9e0207036b0d0e98119b959b",
         "type": "github"
       },
       "original": {
@@ -241,11 +241,11 @@
     "android-kernel-samsung-exynos9810": {
       "flake": false,
       "locked": {
-        "lastModified": 1786386723,
-        "narHash": "sha256-kMbpvoUo+ZLuLDFcOzYxu22CKqYAUPenufW5cTIP2kI=",
+        "lastModified": 1786563183,
+        "narHash": "sha256-PEY+gV4R9FP4Zcir13b/YS3SHnD9QWVZlamx0fOIv4M=",
         "owner": "ExyHyperBrick",
         "repo": "android_kernel_samsung_exynos9810",
-        "rev": "3b2302ac410d3c73b9034aa6ca5b97fc2645318e",
+        "rev": "f52b4ac0d5e4df0ace79fc5460a93e7487adc233",
         "type": "github"
       },
       "original": {
@@ -258,11 +258,11 @@
     "android-vendor-extra": {
       "flake": false,
       "locked": {
-        "lastModified": 1784177087,
-        "narHash": "sha256-5kRwlvgP7e0uDsuqSb0dMIhaXQF7G9tWSbhrLOrZ6Zs=",
-        "rev": "a6fda81fd5b6ad28ac3b2b4c3af60866a1de859e",
+        "lastModified": 1787767373,
+        "narHash": "sha256-OSvVU20ZlAn7Ksfowub40goEBYL7oGV/eaercgOs3jc=",
+        "rev": "c29d4ba17944c29ad1de6aae75b60cd5a10f9c8f",
         "type": "tarball",
-        "url": "https://codeberg.org/api/v1/repos/ungeskriptet/android_vendor_extra/archive/a6fda81fd5b6ad28ac3b2b4c3af60866a1de859e.tar.gz"
+        "url": "https://codeberg.org/api/v1/repos/ungeskriptet/android_vendor_extra/archive/c29d4ba17944c29ad1de6aae75b60cd5a10f9c8f.tar.gz"
       },
       "original": {
         "type": "tarball",
@@ -272,11 +272,11 @@
     "android-vendor-partner-gms": {
       "flake": false,
       "locked": {
-        "lastModified": 1785967208,
-        "narHash": "sha256-lzb9r5MrgiRxUj/8hN9h6/av/wxCK1MpSZqRdRGm0cA=",
+        "lastModified": 1787760534,
+        "narHash": "sha256-iHyND3mG59+lDRBDAgcA08+vJ9FGt/myiI7Bwnch+mQ=",
         "ref": "main",
-        "rev": "7fe7f50bbef775e31295d26318d508b1aef28c28",
-        "revCount": 223,
+        "rev": "72cbf0db91be2755ce3a94a7333e95659dc0f4ac",
+        "revCount": 225,
         "type": "git",
         "url": "https://gitlab.com/itsvixano-dev/android/lineageos-personal/android_vendor_partner_gms.git"
       },
@@ -382,11 +382,11 @@
     "imsstack": {
       "flake": false,
       "locked": {
-        "lastModified": 1785342114,
-        "narHash": "sha256-w+/EnxIQRrEDp2gQHps5LPhzYVJ+QOZsOzFJHrGrpFo=",
+        "lastModified": 1786657272,
+        "narHash": "sha256-EzNMQtbUoQG3DIaR1imqrJT1UdiPM53gEvzOArmoB4M=",
         "owner": "krazey",
         "repo": "ImsStack",
-        "rev": "e78f7d7fd5daaa5425e94dfd1e604fe7b1222ac1",
+        "rev": "cc681dcfbf590538a336f7518d5af21635dae223",
         "type": "github"
       },
       "original": {
@@ -399,11 +399,11 @@
     "imsstack-carrier-config-ext": {
       "flake": false,
       "locked": {
-        "lastModified": 1785627349,
-        "narHash": "sha256-0OL7d/rcOFF1NXTTdiwGtt4gaAmnsRCaVU09yu4XrhE=",
+        "lastModified": 1786657340,
+        "narHash": "sha256-FU/FmfniibLgxiwbc1yC7RZJYt/qlGFss1DN8cXxpyU=",
         "owner": "krazey",
         "repo": "imsstack-carrier-config-ext",
-        "rev": "43c0c886e115d0a74c12c2adb80d7d0fc44f3348",
+        "rev": "b7d3c1986df8ba8cd3b688566a215ce66cf1a364",
         "type": "github"
       },
       "original": {
@@ -432,11 +432,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1786247143,
-        "narHash": "sha256-8S3Kcxs7D4UtxJxSJZz0m14CGhuW0MxfrIwJxeGWGnQ=",
+        "lastModified": 1787498568,
+        "narHash": "sha256-9i/VTdusq/+NM/tz+J1Re+ojkMB8MBf0QshnYfzHz30=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "279b4a8275f032c566576b3f181fa0f27197f588",
+        "rev": "56c02bc00adcf003215cc4bd996d6efaf4cff188",
         "type": "github"
       },
       "original": {

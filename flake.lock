@@ -307,6 +307,23 @@
         "type": "github"
       }
     },
+    "bellis": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1786114289,
+        "narHash": "sha256-DUhJnI6F+lsGu2DQDAgtoSFOtEyNb9bWU37jYMqsEQc=",
+        "owner": "CalyxOS",
+        "repo": "platform_packages_apps_Bellis",
+        "rev": "91e916c0d2aeba3afa9a7fd9a3965ff3af568372",
+        "type": "github"
+      },
+      "original": {
+        "owner": "CalyxOS",
+        "ref": "android16-qpr2",
+        "repo": "platform_packages_apps_Bellis",
+        "type": "github"
+      }
+    },
     "devshell": {
       "inputs": {
         "nixpkgs": [
@@ -604,6 +621,7 @@
         "android-kernel-samsung-exynos9810": "android-kernel-samsung-exynos9810",
         "android-vendor-extra": "android-vendor-extra",
         "android-vendor-partner-gms": "android-vendor-partner-gms",
+        "bellis": "bellis",
         "imsmedia": "imsmedia",
         "imsstack": "imsstack",
         "imsstack-carrier-config-ext": "imsstack-carrier-config-ext",

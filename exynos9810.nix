@@ -75,6 +75,7 @@ in
     "packages/apps/Updater".patches = [
       ./patches/0001-Updater-remove-battery-level-check.patch
     ];
+    "packages/apps/Bellis".src = inputs.bellis;
   };
 
   stateVersion = "3";

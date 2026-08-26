@@ -107,6 +107,11 @@
       flake = false;
     };
 
+    bellis = {
+      url = "github:CalyxOS/platform_packages_apps_Bellis/android16-qpr2";
+      flake = false;
+    };
+
     imsmedia = {
       url = "github:krazey/ImsMedia/main";
       flake = false;

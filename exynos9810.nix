@@ -61,6 +61,7 @@ in
       ./patches/0001-fwb-Screen-off-animations-1-2.patch
       ./patches/0002-Fix-crash-with-protected-content-with-ElectronBeam-S.patch
       ./patches/0005-Disable-screenshot-restrictions-and-audio-capture-blocking.patch
+      ./patches/0025-Set-FakeStore-PlayStore-as-Aurora-Store-installer-pa.patch
     ];
     "packages/services/QualifiedNetworksService".patches = [
       "${patches}/0001-qns-track-the-system-default-network-through-app-VPN.patch"

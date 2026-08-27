@@ -41,13 +41,14 @@ in
     "vendor/samsung/exynos9810-common".src = inputs.proprietary-vendor-samsung-exynos9810-common;
     "vendor/samsung/star2lte".src = inputs.proprietary-vendor-samsung-star2lte;
     "vendor/samsung/starlte".src = inputs.proprietary-vendor-samsung-starlte;
-    "build/make".patches = [
+    "build/make".patches = lib.mkAfter [
       "${patches}/build_core_0001-build-Squash-of-allowing-a-device-to-generically-def.patch"
       "${patches}/build_core_0002-build-Add-support-for-device-tree-in-boot.img.patch"
       "${patches}/build_core_0003-Add-support-for-separate-kernels-for-boot-and-recove.patch"
       "${patches}/build_core_0004-build-Automatically-replace-old-style-kernel-header-.patch"
       "${patches}/build_core_0005-Replace-old-style-kernel-headers-only-when-building-.patch"
       "${patches}/build_core_0006-Replace-device_kernel_headers-with-generated_kernel_.patch"
+      ./patches/0001-sign_target_files_apks-Fix-avbtool-usage.patch
     ];
     "build/soong".patches = [
       "${patches}/build_soong_0001-soong-allow-overriding-header-files.patch"

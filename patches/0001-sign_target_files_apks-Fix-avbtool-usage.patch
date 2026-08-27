@@ -1,0 +1,49 @@
+From 8c4536fe45fdb8bbec52683fb99c305eb408eaaa Mon Sep 17 00:00:00 2001
+From: Kshitij Gupta <kshitijgm@gmail.com>
+Date: Sun, 20 Sep 2020 18:54:54 +0000
+Subject: [PATCH] sign_target_files_apks: Fix avbtool usage
+
+- misc_info may not contain avb_avbtool on older devices which
+  causes Apex signing to fail
+- Check before using and try to execute it directly if absent in
+  misc_info
+
+Change-Id: I53b1deca8d1d2e827c36ba2d3f72e461e5a0fb21
+Signed-off-by: Pranav Vashi <neobuddy89@gmail.com>
+Signed-off-by: Dmitrii <bankersenator@gmail.com>
+Signed-off-by: David Wronek <david.wronek@mainlining.org>
+---
+ tools/releasetools/sign_target_files_apks.py | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+diff --git a/tools/releasetools/sign_target_files_apks.py b/tools/releasetools/sign_target_files_apks.py
+index 09c115849a..23d2ebd69c 100755
+--- a/tools/releasetools/sign_target_files_apks.py
++++ b/tools/releasetools/sign_target_files_apks.py
+@@ -812,8 +812,9 @@ def ProcessTargetFiles(input_tf_zip: zipfile.ZipFile, output_tf_zip: zipfile.Zip
+         print("           : %-*s payload   (%s)" % (
+             maxsize, name, payload_key))
+ 
++        avbtool = misc_info['avb_avbtool'] if 'avb_avbtool' in misc_info else 'avbtool'
+         signed_apex = apex_utils.SignApex(
+-            misc_info['avb_avbtool'],
++            avbtool,
+             data,
+             payload_key,
+             container_key,
+@@ -908,10 +909,11 @@ def ProcessTargetFiles(input_tf_zip: zipfile.ZipFile, output_tf_zip: zipfile.Zip
+       # key is specified via --avb_system_other_key.
+       signing_key = OPTIONS.avb_keys.get("system_other")
+       if signing_key:
++        avbtool = misc_info['avb_avbtool'] if 'avb_avbtool' in misc_info else 'avbtool'
+         public_key = OPTIONS.avb_pkmds.get("system_other")
+         if not public_key:
+           public_key = common.ExtractAvbPublicKey(
+-              misc_info['avb_avbtool'], signing_key)
++              avbtool, signing_key)
+         print("    Rewriting AVB public key of system_other in /product")
+         common.ZipWrite(output_tf_zip, public_key, filename)
+ 
+-- 
+2.55.0
+

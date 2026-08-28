@@ -1,0 +1,26 @@
+From 18b83b69c0676a6ab220411fd3e2ca1bfe82b23a Mon Sep 17 00:00:00 2001
+From: David Wronek <david.wronek@mainlining.org>
+Date: Thu, 27 Aug 2026 16:22:25 +0200
+Subject: [PATCH] app: Make Aurora Store and F-Droid available in work profile
+
+Signed-off-by: David Wronek <david.wronek@mainlining.org>
+---
+ app/src/main/java/org/calyxos/bellis/utils/SystemAppWorker.kt | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/app/src/main/java/org/calyxos/bellis/utils/SystemAppWorker.kt b/app/src/main/java/org/calyxos/bellis/utils/SystemAppWorker.kt
+index 9584c87..fa43118 100644
+--- a/app/src/main/java/org/calyxos/bellis/utils/SystemAppWorker.kt
++++ b/app/src/main/java/org/calyxos/bellis/utils/SystemAppWorker.kt
+@@ -19,6 +19,8 @@ class SystemAppWorker(private val context: Context, workerParams: WorkerParamete
+ 
+     // Default apps to enable on creation of new managed profile
+     private val systemApps = listOf(
++        "com.aurora.store",
++        "org.fdroid.basic",
+         "com.android.gallery3d",
+         "com.android.vending",
+         "com.android.camera2",
+-- 
+2.55.0
+

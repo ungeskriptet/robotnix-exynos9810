@@ -81,6 +81,7 @@ in
       src = inputs.bellis;
       patches = [
         ./patches/0001-app-Update-systemApps-to-match-LineageOS.patch
+        ./patches/0001-app-Make-Aurora-Store-and-F-Droid-available-in-work-.patch
       ];
     };
     "system/core".patches = [

@@ -84,9 +84,6 @@ in
         ./patches/0001-app-Make-Aurora-Store-and-F-Droid-available-in-work-.patch
       ];
     };
-    "system/core".patches = [
-      ./patches/0001-init-Report-valid-verified-boot-for-SafetyNet-checks.patch
-    ];
   };
 
   stateVersion = "3";
